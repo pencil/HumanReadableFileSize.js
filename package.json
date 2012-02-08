@@ -1,0 +1,34 @@
+{
+  "name": "fileSize",
+  "version": "1.0",
+  "title": "HumanReadableFileSize.js",
+  "author": {
+    "name": "Nils Caspar",
+    "url": "https://github.com/pencil"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    },
+    {
+      "type": "GPLv2",
+      "url": "http://www.gnu.org/licenses/gpl-2.0.txt"
+    }
+  ],
+  "dependencies": {
+    "jquery": "1"
+  },
+  "descirption": "A jQuery plugin to display file sizes in a human-readable format.",
+  "keywords": [
+    "file",
+    "size",
+    "filesize",
+    "iec",
+    "si"
+  ],
+  "homepage": "https://github.com/pencil/HumanReadableFileSize.js",
+  "files": [
+    "jquery.filesize.js"
+  ]
+}
