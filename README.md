@@ -2,6 +2,8 @@ HumanReadableFileSize.js
 ========================
 A jQuery plugin to display file sizes in a human-readable format.
 
+... actually it does not (yet) utilize any of jQuery's powers.
+
 Installation
 ------------
 Include the JavaScript file in the header section of your HTML page *after* jQuery:
