@@ -1,3 +1,10 @@
+/*
+ * jQuery human readable file size plugin
+ * https://github.com/pencil/HumanReadableFileSize.js
+ *
+ * Copyright (c) 2012 "Pencil" Nils Caspar
+ * Licensed under the MIT, GPL, and BSD licenses.
+ */
 (function($, undefined){
 	$.fileSize = (function() {
 		var _prefixesSI = ['', 'K', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y'],
