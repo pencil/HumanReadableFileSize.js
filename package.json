@@ -19,13 +19,16 @@
   "dependencies": {
     "jquery": "1"
   },
-  "descirption": "A jQuery plugin to display file sizes in a human-readable format.",
+  "description": "A jQuery plugin to display file sizes in a human-readable format.",
   "keywords": [
     "file",
     "size",
     "filesize",
     "iec",
-    "si"
+    "si",
+    "human",
+    "readable",
+    "human-readable"
   ],
   "homepage": "https://github.com/pencil/HumanReadableFileSize.js",
   "files": [
