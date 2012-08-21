@@ -1,8 +1,9 @@
+/*jslint indent: 2*/
 /*
  * jQuery human readable file size plugin
  * https://github.com/pencil/HumanReadableFileSize.js
  *
- * Copyright (c) 2012 "Pencil" Nils Caspar
+ * Copyright (c) 2012 "Pencil" Nils Caspar (www.nilscaspar.ch)
  * Licensed under the MIT, GPL, and BSD licenses.
  */
 (function ($, udef) {
@@ -20,4 +21,13 @@
       return fileSize + ' ' + prefixes[index] + 'B';
     };
   }());
+  $.fn.fileSize = function (precision, useIECPrefixes) {
+    this.each(function (key, element, size) {
+      element = $(element);
+      size = Number(element.text());
+      if (isFinite(size)) {
+        element.text($.fileSize(size, precision, useIECPrefixes));
+      }
+    });
+  };
 }(jQuery));
