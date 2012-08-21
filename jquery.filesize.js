@@ -16,6 +16,7 @@
         base = useIECPrefixes ? 1024 : 1000,
         powedPrecision = Math.pow(10, precision === udef ? 2 : precision),
         index = (!fileSize ? 0 : Math.floor(Math.log(fileSize) / Math.log(base)));
+      index = Math.min(index, prefixes.length - 1);
       fileSize = fileSize / Math.pow(base, index);
       fileSize = Math.round(fileSize * powedPrecision) / powedPrecision;
       return fileSize + ' ' + prefixes[index] + 'B';
